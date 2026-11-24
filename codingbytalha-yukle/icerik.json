@@ -1,0 +1,503 @@
+{
+  "_not": "Sitenin bütün içeriği burada. Değiştir, sonra: python3 _uret.py. Yeni oyun: oyunlar listesine bir öğe ekle, resimlerini img/<kod>/ klasörüne koy.",
+  "gelistirici": "Talha Yalçın",
+  "marka": "codingbytalha",
+  "instagram": "https://instagram.com/codingbytalha",
+  "instagram_ad": "@codingbytalha",
+  "simdi": [
+    "USTA 1.0 · build 8 hazırlanıyor",
+    "Building USTA 1.0 · build 8"
+  ],
+  "sayilar": [
+    [
+      "4",
+      "oyun",
+      "games"
+    ],
+    [
+      "177",
+      "ülkede yayında",
+      "countries live"
+    ],
+    [
+      "16",
+      "dil",
+      "languages"
+    ],
+    [
+      "1",
+      "kişilik stüdyo",
+      "person studio"
+    ]
+  ],
+  "gunluk": [
+    [
+      "2026-11-23",
+      "usta",
+      "E-postayla giriş, bulut kayıt, sıralama ekranı ve rütbeyle açılan makineler eklendi.",
+      "Added e-mail sign-in, cloud saves, a leaderboard and rank-locked machines."
+    ],
+    [
+      "2026-11-23",
+      "usta",
+      "Sürüm 1.0. 15 dile çeviri tamamlandı; hesap silme eklendi.",
+      "Version 1.0. Translations finished for 15 languages; account deletion added."
+    ],
+    [
+      "2026-11-22",
+      "usta",
+      "Taş ocağı yolları, zincirle çekme, su dolan çukurlar ve yağmurda kirlenen makineler.",
+      "Quarry roads, towing, pits that fill with water and machines that get muddy in the rain."
+    ],
+    [
+      "2026-11-19",
+      "usta",
+      "İnternetten birlikte çalışma: kendi oyun sunucumuz açıldı.",
+      "Online co-op: our own game server went live."
+    ],
+    [
+      "2026-11-08",
+      "harput-kisi",
+      "Prototip 0.9: hikâye baştan sona oynanabilir, Çayda Çıra halayıyla bitiyor.",
+      "Prototype 0.9: the story is playable end to end and closes with the Çayda Çıra dance."
+    ],
+    [
+      "2026-10-24",
+      "acili-mi-olsun",
+      "App Store sürümü hazır: dükkân süsleri ve başlangıç paketi.",
+      "App Store build ready: shop décor and a starter pack."
+    ],
+    [
+      "2026-08-23",
+      "hakim-bey",
+      "Google Play'de 177 ülkede yayına çıktı.",
+      "Released on Google Play in 177 countries."
+    ]
+  ],
+  "araclar": [
+    "Godot 4",
+    "GDScript",
+    "Swift",
+    "React Native",
+    "Expo",
+    "Electron",
+    "Firebase",
+    "Nakama",
+    "Blender",
+    "Xcode",
+    "Android Studio",
+    "Steam"
+  ],
+  "disiplinler": [
+    [
+      "Oyun tasarımı",
+      "Game design",
+      "Fikirden oynanışa: kurallar, ekonomi, ilerleme."
+    ],
+    [
+      "Programlama",
+      "Engineering",
+      "Fizik, ağ, kayıt, mağaza; hepsi elle yazılır."
+    ],
+    [
+      "Görsel ve 3B",
+      "Art & 3D",
+      "Modeller, arayüz, ışık, tanıtım filmleri."
+    ],
+    [
+      "Yayıncılık",
+      "Publishing",
+      "App Store, Google Play, Steam; çeviri ve destek."
+    ]
+  ],
+  "oyunlar": [
+    {
+      "kod": "usta",
+      "ad": "USTA",
+      "yil": "2026",
+      "vurgu": "#f5b32e",
+      "tur": [
+        "İş makinesi simülatörü",
+        "Construction machine simulator"
+      ],
+      "durum": [
+        "yakinda",
+        "Test sürümü",
+        "In beta"
+      ],
+      "platform": [
+        "iPhone",
+        "iPad",
+        "Mac",
+        "Windows"
+      ],
+      "kapak": "img/usta/kapak_temiz.jpg",
+      "ikon": "img/usta/ikon.png",
+      "video": "video/usta.mp4",
+      "kisa": [
+        "Kendi hafriyat şirketini kur: kaz, taşı, ihaleye gir, filonu büyüt.",
+        "Build your own excavation company: dig, haul, win tenders, grow your fleet."
+      ],
+      "manset": [
+        "Toprak gerçekten yer değiştirir.",
+        "The ground really moves."
+      ],
+      "uzun": [
+        [
+          "USTA, gerçek iş makinelerini telefonda ve bilgisayarda elle tutulur hâle getiren bir simülatör. Kazdığın toprak yer değiştirir, kova dolar, kamyon yük alır, yağmurda yol çamura döner, kazdığın çukur suyla dolar.",
+          "USTA makes real construction machines feel tangible on phone and computer. The soil you dig moves, the bucket fills, the truck takes the load, roads turn to mud in the rain and your pits fill with water."
+        ],
+        [
+          "Kendi şirketini kurarsın: ihalelere teklif verir, işi kazanır, hakedişini alırsın. Rütben yükseldikçe yeni makinelerin kilidi açılır. Atölyede çakar, ayna, bayrak, plaka, boya ve motorla makineni süsler; arkadaşlarınla aynı sahada birlikte çalışırsın.",
+          "Start your own company: bid on tenders, win the job, get paid. New machines unlock as you rank up. Customise them in the workshop and work the same site with friends online."
+        ]
+      ],
+      "ozellik": [
+        [
+          "25 iş makinesi",
+          "25 machines",
+          "Ekskavatör, beko loder, dozer, greyder, vinç, finişer, mikser ve fazlası.",
+          "Excavator, backhoe, dozer, grader, crane, paver, mixer and more."
+        ],
+        [
+          "Yaşayan zemin",
+          "Living terrain",
+          "Kazı, yığın, çamur, su dolan çukurlar; yağmur ve gece.",
+          "Digging, piles, mud, flooding pits; rain and night."
+        ],
+        [
+          "Şirket ve sıralama",
+          "Company & leaderboard",
+          "İhaleler, hakediş, rütbe; Türkiye'nin en büyük şirketi ol.",
+          "Tenders, payouts, ranks; become the biggest company."
+        ],
+        [
+          "Modifiye atölyesi",
+          "Custom workshop",
+          "Çakar, ayna, bayrak, perde, tespih, boya, motor.",
+          "Beacons, mirrors, flags, curtains, paint, engines."
+        ],
+        [
+          "Birlikte çalış",
+          "Co-op",
+          "Arkadaşınla aynı sahada: biri kazar, öteki taşır.",
+          "Same site with friends: one digs, one hauls."
+        ],
+        [
+          "Zincirle kurtar",
+          "Tow & rescue",
+          "Saplanan makineyi başka makineyle zincirle çek.",
+          "Pull a stuck machine out with another one."
+        ]
+      ],
+      "galeri": [
+        "img/usta/f1.jpg",
+        "img/usta/menu.jpg",
+        "img/usta/f3.jpg",
+        "img/usta/f5.jpg",
+        "img/usta/filo.jpg",
+        "img/usta/f6.jpg",
+        "img/usta/f7.jpg",
+        "img/usta/f8.jpg"
+      ],
+      "galeri_dik": false,
+      "bilgi": [
+        [
+          "Motor",
+          "Engine",
+          "Godot 4.7"
+        ],
+        [
+          "Sürüm",
+          "Version",
+          "1.0 · build 8"
+        ],
+        [
+          "Diller",
+          "Languages",
+          "16"
+        ],
+        [
+          "Fiyat",
+          "Price",
+          "Ücretsiz|Free"
+        ]
+      ],
+      "linkler": [],
+      "hesap": true,
+      "vurgu2": "#ff6a1a"
+    },
+    {
+      "kod": "hakim-bey",
+      "ad": "Hâkim Bey",
+      "yil": "2026",
+      "vurgu": "#8f7cff",
+      "tur": [
+        "Mahkeme simülasyonu",
+        "Courtroom simulation"
+      ],
+      "durum": [
+        "yayinda",
+        "Yayında",
+        "Out now"
+      ],
+      "platform": [
+        "Android",
+        "iPhone",
+        "Windows"
+      ],
+      "kapak": "img/hakim/kapak.jpg",
+      "ikon": "img/hakim/ikon.png",
+      "kisa": [
+        "Kürsüye otur: delilleri incele, tanıkları dinle, kararını ver.",
+        "Take the bench: examine evidence, hear witnesses, deliver your verdict."
+      ],
+      "manset": [
+        "Beş binden fazla dava. Her biri ayrı bir vicdan sınavı.",
+        "Over five thousand cases, each a test of conscience."
+      ],
+      "uzun": [
+        [
+          "Hâkim Bey'de bir Türk mahkemesinin hâkimisin. Dosyayı oku, delilleri karşılaştır, sanığı ve tanıkları dinle, sonra kararını ver. Doğru kararlar itibarını yükseltir; hatalar Yargıtay'dan geri döner.",
+          "You are the judge of a Turkish court. Read the file, compare the evidence, hear the defendant and witnesses, then rule. Good rulings raise your reputation; mistakes come back on appeal."
+        ],
+        [
+          "Kürsü dışında da bir hayatın var: evin, ailen, birikimin. Kariyerinde yükselirken hayatını da yönet.",
+          "Outside the courtroom you have a life too: home, family, savings. Manage it as you climb."
+        ]
+      ],
+      "ozellik": [
+        [
+          "5000+ dava",
+          "5000+ cases",
+          "Ceza, hukuk, aile, ticaret; her biri ayrı dosya.",
+          "Criminal, civil, family and commercial cases."
+        ],
+        [
+          "Delil ve tanık",
+          "Evidence & witnesses",
+          "Çelişkileri yakala, doğru kararı bul.",
+          "Catch contradictions, find the right verdict."
+        ],
+        [
+          "Ev ve aile",
+          "Home & family",
+          "Kürsü dışındaki hayatını da sen yönet.",
+          "Manage your life outside the court."
+        ],
+        [
+          "Sıralama",
+          "Leaderboard",
+          "Türkiye'nin en adil hâkimi ol.",
+          "Become the fairest judge in the land."
+        ]
+      ],
+      "galeri": [
+        "img/hakim/e1.jpg",
+        "img/hakim/e2.jpg",
+        "img/hakim/e3.jpg",
+        "img/hakim/e4.jpg",
+        "img/hakim/e5.jpg",
+        "img/hakim/e6.jpg"
+      ],
+      "galeri_dik": true,
+      "bilgi": [
+        [
+          "Ülke",
+          "Countries",
+          "177"
+        ],
+        [
+          "Fiyat",
+          "Price",
+          "Ücretsiz|Free"
+        ]
+      ],
+      "linkler": [
+        [
+          "Google Play'den indir",
+          "Get it on Google Play",
+          "https://play.google.com/store/apps/details?id=com.talhayalcin.hakimbey"
+        ]
+      ],
+      "hesap": false,
+      "vurgu2": "#d9b46a"
+    },
+    {
+      "kod": "acili-mi-olsun",
+      "ad": "Acılı mı Olsun?",
+      "yil": "2026",
+      "vurgu": "#ff4d3d",
+      "tur": [
+        "Çiğköfteci oyunu",
+        "Çiğ köfte shop game"
+      ],
+      "durum": [
+        "yakinda",
+        "Yakında",
+        "Coming soon"
+      ],
+      "platform": [
+        "iPhone",
+        "iPad"
+      ],
+      "kapak": "img/acili/e2.jpg",
+      "ikon": "img/acili/ikon.png",
+      "kisa": [
+        "Dürüm sar, porsiyon hazırla, hırsızı yakala, dükkânını büyüt.",
+        "Wrap, serve, catch the thief and grow your shop."
+      ],
+      "manset": [
+        "“Acılı mı olsun abi?”",
+        "“Spicy or mild?”"
+      ],
+      "uzun": [
+        [
+          "Mahallenin çiğköftecisi sensin. Müşteri gelir, siparişi söyler: acılı mı, acısız mı, lavaşla mı, marulla mı? Hızlı ve doğru hazırla, bahşişi kap. Gün sonunda kasayı say, dükkânını geliştir.",
+          "You run the neighbourhood çiğ köfte shop. Customers order: spicy or mild, wrap or lettuce? Be quick and accurate, collect tips, count the till and upgrade your shop."
+        ]
+      ],
+      "ozellik": [
+        [
+          "Dürüm sar",
+          "Wrap it",
+          "Her müşterinin siparişi farklı.",
+          "Every order is different."
+        ],
+        [
+          "Hırsızı yakala",
+          "Catch the thief",
+          "Kasaya göz kulak ol.",
+          "Keep an eye on the till."
+        ],
+        [
+          "Dükkânını büyüt",
+          "Grow your shop",
+          "Tezgâh, tabela, süsler, çırak.",
+          "Counter, sign, décor, apprentice."
+        ],
+        [
+          "İnternetsiz",
+          "Offline",
+          "Hiçbir veri toplamaz, her yerde oynanır.",
+          "Collects no data, plays anywhere."
+        ]
+      ],
+      "galeri": [
+        "img/acili/e1.jpg",
+        "img/acili/e2.jpg",
+        "img/acili/e3.jpg",
+        "img/acili/e4.jpg",
+        "img/acili/e5.jpg",
+        "img/acili/e6.jpg"
+      ],
+      "galeri_dik": false,
+      "bilgi": [
+        [
+          "Fiyat",
+          "Price",
+          "Ücretsiz|Free"
+        ]
+      ],
+      "linkler": [],
+      "hesap": false,
+      "vurgu2": "#ffb02e"
+    },
+    {
+      "kod": "harput-kisi",
+      "ad": "Harput Kışı",
+      "yil": "2027",
+      "vurgu": "#7cc8f2",
+      "tur": [
+        "Hikâyeli hayatta kalma",
+        "Story-driven survival"
+      ],
+      "durum": [
+        "gelistiriliyor",
+        "Geliştiriliyor",
+        "In development"
+      ],
+      "platform": [
+        "PC",
+        "Steam"
+      ],
+      "kapak": "img/harput/e1.jpg",
+      "ikon": null,
+      "kisa": [
+        "Elazığ, 1942 zemheri. Tandırın ateşini söndürme.",
+        "Elazığ, the winter of 1942. Keep the tandoor burning."
+      ],
+      "manset": [
+        "Zemheri geldi. Ateş sönmesin.",
+        "Deep winter is here. Keep the fire alive."
+      ],
+      "uzun": [
+        [
+          "Harput Kışı, 1942'nin dondurucu zemherisinde Elazığ'da geçen hikâyeli bir hayatta kalma oyunu. Soğuk, açlık ve tipiyle savaşırken Gülizar Nine'nin, Muhtar Ali'nin ve köylülerin hikâyesine ortak olursun.",
+          "A story-driven survival game set in Elazığ during the freezing winter of 1942. Fight cold, hunger and blizzards while you become part of the stories of Grandma Gülizar, Headman Ali and the villagers."
+        ],
+        [
+          "Çıra yak, maşrapada kar erit, kızağını çek; Buzluk Mağarası'ndan donmuş dereye, köy meydanındaki Çayda Çıra halayına kadar.",
+          "Light kindling, melt snow, pull your sled; from the Ice Cave to the frozen creek and the Çayda Çıra dance in the square."
+        ]
+      ],
+      "ozellik": [
+        [
+          "Zemheri",
+          "Deep winter",
+          "Soğuk, ıslanma, açlık ve susuzluk.",
+          "Cold, wetness, hunger and thirst."
+        ],
+        [
+          "Tandır başı",
+          "By the tandoor",
+          "Ateşi yaşat, sıcak kal.",
+          "Keep the fire alive."
+        ],
+        [
+          "Yerel hikâye",
+          "Local story",
+          "Harput'un insanları ve efsaneleri.",
+          "The people and legends of Harput."
+        ],
+        [
+          "Tipi ve kurtlar",
+          "Blizzards & wolves",
+          "Gece dışarısı tehlikeli.",
+          "Nights outside are dangerous."
+        ]
+      ],
+      "galeri": [
+        "img/harput/e1.jpg",
+        "img/harput/e2.jpg",
+        "img/harput/e3.jpg",
+        "img/harput/e4.jpg",
+        "img/harput/e5.jpg"
+      ],
+      "galeri_dik": false,
+      "bilgi": [
+        [
+          "Motor",
+          "Engine",
+          "Godot 4.7"
+        ],
+        [
+          "Sürüm",
+          "Version",
+          "Prototip 0.9|Prototype 0.9"
+        ]
+      ],
+      "linkler": [],
+      "hesap": false,
+      "vurgu2": "#e9f4ff"
+    }
+  ],
+  "diger_oyunlar": [
+    {
+      "kod": "issiz-yaylalar",
+      "ad": "Harput'taki Issız Yaylalar",
+      "vurgu": "#e7b84e",
+      "vurgu2": "#f6d488"
+    }
+  ]
+}

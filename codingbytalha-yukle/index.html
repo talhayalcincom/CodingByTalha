@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>codingbytalha</title>
+<meta name="description" content="Talha Yalçın&#x27;ın oyunları: USTA, Hâkim Bey, Acılı mı Olsun?, Harput Kışı.">
+<meta property="og:title" content="codingbytalha">
+<meta property="og:description" content="Talha Yalçın&#x27;ın oyunları: USTA, Hâkim Bey, Acılı mı Olsun?, Harput Kışı.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0c0d12">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="isiklar" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="yukleyici" aria-hidden="true">
+  <div class="ust-s mono"><span lang="en">codingbytalha</span><span>build 2026.11</span></div>
+  <div><pre class="yuk-log" lang="en"></pre><div class="sayac"><b>000</b></div><div class="cubuk"><i></i></div></div>
+</div>
+<header class="ust">
+  <a class="marka" href="index.html" lang="en"><i></i>codingbytalha</a>
+  <nav>
+    <a class="sekme" href="index.html#isler" lang="en"><span data-l="tr">işler/</span><span data-l="en">work/</span></a>
+    <a class="sekme tel-gizle" href="index.html#gunluk" lang="en"><span data-l="tr">günlük.log</span><span data-l="en">devlog.log</span></a>
+    <a class="sekme tel-gizle" href="destek.html" lang="en"><span data-l="tr">destek.md</span><span data-l="en">support.md</span></a>
+    <button class="dil" type="button" aria-label="Dil / Language">EN</button>
+  </nav>
+</header>
+<main>
+<script>window.OYUN_VERI = {"usta": {"kod": "usta", "ad": "USTA", "yil": "2026", "vurgu": "#f5b32e", "platform": ["iPhone", "iPad", "Mac", "Windows"], "tur": {"tr": "İş makinesi simülatörü", "en": "Construction machine simulator"}, "kisa": {"tr": "Kendi hafriyat şirketini kur: kaz, taşı, ihaleye gir, filonu büyüt.", "en": "Build your own excavation company: dig, haul, win tenders, grow your fleet."}, "durum": {"0": "yakinda", "tr": "Test sürümü", "en": "In beta"}}, "hakim-bey": {"kod": "hakim-bey", "ad": "Hâkim Bey", "yil": "2026", "vurgu": "#8f7cff", "platform": ["Android", "iPhone", "Windows"], "tur": {"tr": "Mahkeme simülasyonu", "en": "Courtroom simulation"}, "kisa": {"tr": "Kürsüye otur: delilleri incele, tanıkları dinle, kararını ver.", "en": "Take the bench: examine evidence, hear witnesses, deliver your verdict."}, "durum": {"0": "yayinda", "tr": "Yayında", "en": "Out now"}}, "acili-mi-olsun": {"kod": "acili-mi-olsun", "ad": "Acılı mı Olsun?", "yil": "2026", "vurgu": "#ff4d3d", "platform": ["iPhone", "iPad"], "tur": {"tr": "Çiğköfteci oyunu", "en": "Çiğ köfte shop game"}, "kisa": {"tr": "Dürüm sar, porsiyon hazırla, hırsızı yakala, dükkânını büyüt.", "en": "Wrap, serve, catch the thief and grow your shop."}, "durum": {"0": "yakinda", "tr": "Yakında", "en": "Coming soon"}}, "harput-kisi": {"kod": "harput-kisi", "ad": "Harput Kışı", "yil": "2027", "vurgu": "#7cc8f2", "platform": ["PC", "Steam"], "tur": {"tr": "Hikâyeli hayatta kalma", "en": "Story-driven survival"}, "kisa": {"tr": "Elazığ, 1942 zemheri. Tandırın ateşini söndürme.", "en": "Elazığ, the winter of 1942. Keep the tandoor burning."}, "durum": {"0": "gelistiriliyor", "tr": "Geliştiriliyor", "en": "In development"}}};</script>
+<section class="giris" id="giris">
+  <canvas id="bulut" aria-hidden="true"></canvas>
+  <div class="giris-ic sar">
+    <div class="laptop" aria-hidden="true">
+      <div class="lp-kapak"><div class="lp-cerceve"><span class="lp-kamera"></span><div class="lp-ekran">
+        <div class="ed">
+          <div class="ed-ust"><i></i><i></i><i></i><div class="ed-sekmeler"></div></div>
+          <div class="ed-govde"><div class="ed-no"></div><pre class="ed-kod"></pre></div>
+          <div class="ed-terminal"><span class="ed-komut"></span><span class="ed-cubuk"><i></i></span></div>
+        </div>
+        <div class="oyun-ekran"><img alt=""><span class="oyun-etiket"></span></div>
+      </div></div></div>
+      <div class="lp-taban"><span class="lp-centik"></span></div>
+      <div class="lp-golge"></div>
+    </div>
+    <div class="giris-sol">
+      <span class="giris-ust mono"><span data-l="tr">Bağımsız oyun stüdyosu · Türkiye</span><span data-l="en">Independent game studio · Türkiye</span></span>
+      <h1 class="marka-dev" lang="en" aria-label="codingbytalha">
+        <span class="md-satir"><span class="md-kelime">coding</span></span>
+        <span class="md-satir"><span class="md-by">by</span><span class="md-kelime">talha</span></span>
+      </h1>
+      <p class="donen"><span class="donen-sabit">Talha Yalçın</span> <span class="donen-kutu" aria-live="polite"><span class="donen-yol"><span class="donen-fiil" style="color:var(--r1)"><span data-l="tr">toprak kazar.</span><span data-l="en">digs dirt.</span></span><span class="donen-fiil" style="color:var(--r2)"><span data-l="tr">karar verir.</span><span data-l="en">rules the court.</span></span><span class="donen-fiil" style="color:var(--r3)"><span data-l="tr">dürüm sarar.</span><span data-l="en">wraps çiğ köfte.</span></span><span class="donen-fiil" style="color:var(--r4)"><span data-l="tr">ateş yakar.</span><span data-l="en">lights the fire.</span></span><span class="donen-fiil" style="color:var(--kagit)"><span data-l="tr">oyun yapar.</span><span data-l="en">makes games.</span></span></span></span></p>
+      <div class="giris-alt">
+        <p><span data-l="tr">İş makinesinden mahkeme salonuna, çiğköfteciden Harput'un kışına: tanıdık dünyaları oyuna dönüştürüyorum.</span><span data-l="en">From construction sites to courtrooms, from a çiğ köfte shop to the Harput winter: I turn familiar worlds into games.</span></p>
+        <div class="sahne-kisayol"><a href="usta/index.html" style="--k:#f5b32e"><i></i>USTA</a><a href="hakim-bey/index.html" style="--k:#8f7cff"><i></i>Hâkim Bey</a><a href="acili-mi-olsun/index.html" style="--k:#ff4d3d"><i></i>Acılı mı Olsun?</a><a href="harput-kisi/index.html" style="--k:#7cc8f2"><i></i>Harput Kışı</a></div>
+      </div>
+    </div>
+  </div>
+  <span class="giris-asagi mono"><span data-l="tr">Kaydır</span><span data-l="en">Scroll</span> ↓</span>
+</section>
+<div class="sar"><div class="genislik">
+    <div class="meta-serit">
+      <div><span class="mono"><span data-l="tr">Rol</span><span data-l="en">Role</span></span><b><span data-l="tr">Tasarım, kod, görsel, yayın</span><span data-l="en">Design, code, art, publishing</span></b></div>
+      <div><span class="mono"><span data-l="tr">Stüdyo</span><span data-l="en">Studio</span></span><b><span data-l="tr">Tek kişilik · Türkiye</span><span data-l="en">One person · Türkiye</span></b></div>
+      <div><span class="mono"><span data-l="tr">Şu an</span><span data-l="en">Now</span></span><b class="canli"><span data-l="tr">USTA 1.0 · build 8 hazırlanıyor</span><span data-l="en">Building USTA 1.0 · build 8</span></b></div>
+      <div><span class="mono"><span data-l="tr">Oyunlar</span><span data-l="en">Games</span></span><b>4 · <span data-l="tr">telefon, Mac, PC</span><span data-l="en">mobile, Mac, PC</span></b></div>
+    </div>
+</div></div>
+
+<div class="kod-blok-sar sar"><div class="genislik"><div class="kod-blok sol" style="--k:#f5b32e" data-satirlar='[&quot;// codingbytalha: tek kişilik oyun stüdyosu&quot;, &quot;const studyo = {&quot;, &quot;  kurucu: \&quot;Talha Yalçın\&quot;,&quot;, &quot;  ulke: \&quot;Türkiye\&quot;,&quot;, &quot;  oyunlar: [\&quot;usta\&quot;, \&quot;hakim-bey\&quot;, \&quot;acili-mi-olsun\&quot;, \&quot;harput-kisi\&quot;],&quot;, &quot;};&quot;, &quot;studyo.oyunlar.forEach(oyun =&gt; oyna(oyun));&quot;]' aria-hidden="true">
+  <div class="kb-ust"><i></i><i></i><i></i><span>studyo.js</span></div>
+  <div class="kb-govde"><div class="kb-no"></div><pre></pre></div>
+</div></div></div>
+<div class="serit" aria-hidden="true"><div class="yol"><span class="" style="--renk:#f5b32e">USTA</span><i style="color:#ff6a1a">✦</i><span class="dolu" style="--renk:#8f7cff">Hâkim Bey</span><i style="color:#d9b46a">✦</i><span class="" style="--renk:#ff4d3d">Acılı mı Olsun?</span><i style="color:#ffb02e">✦</i><span class="dolu" style="--renk:#7cc8f2">Harput Kışı</span><i style="color:#e9f4ff">✦</i><span class="" style="--renk:#f5b32e">USTA</span><i style="color:#ff6a1a">✦</i><span class="dolu" style="--renk:#8f7cff">Hâkim Bey</span><i style="color:#d9b46a">✦</i><span class="" style="--renk:#ff4d3d">Acılı mı Olsun?</span><i style="color:#ffb02e">✦</i><span class="dolu" style="--renk:#7cc8f2">Harput Kışı</span><i style="color:#e9f4ff">✦</i></div></div>
+<div class="serit ters" aria-hidden="true" lang="tr"><div class="yol"><span class="dolu" style="--renk:var(--r1)">KAZ</span><i>✦</i><span class="dolu" style="--renk:var(--r2)">KARAR VER</span><i>✦</i><span class="dolu" style="--renk:var(--r3)">DÜRÜM SAR</span><i>✦</i><span class="dolu" style="--renk:var(--r4)">ATEŞİ YAK</span><i>✦</i><span class="dolu" style="--renk:var(--r1)">KAZ</span><i>✦</i><span class="dolu" style="--renk:var(--r2)">KARAR VER</span><i>✦</i><span class="dolu" style="--renk:var(--r3)">DÜRÜM SAR</span><i>✦</i><span class="dolu" style="--renk:var(--r4)">ATEŞİ YAK</span><i>✦</i><span class="dolu" style="--renk:var(--r1)">KAZ</span><i>✦</i><span class="dolu" style="--renk:var(--r2)">KARAR VER</span><i>✦</i><span class="dolu" style="--renk:var(--r3)">DÜRÜM SAR</span><i>✦</i><span class="dolu" style="--renk:var(--r4)">ATEŞİ YAK</span><i>✦</i></div></div>
+
+<section class="bolum sar" id="isler">
+  <div class="genislik">
+    <div class="bolum-bas"><span class="mono">(04) <span data-l="tr">Seçili işler</span><span data-l="en">Selected work</span></span>
+      <h2><span data-l="tr">Her oyun <em>kendi</em> dünyası.</span><span data-l="en">Every game, its <em>own</em> world.</span></h2></div>
+    <div class="isler"><a class="is" href="usta/index.html" data-renk="#f5b32e" data-imlec="Gör" data-imlec-tr="Gör" data-imlec-en="View" style="--vurgu-is:#f5b32e">
+  <span class="yil mono">2026</span>
+  <h3>USTA</h3>
+  <span class="tur"><span data-l="tr">İş makinesi simülatörü</span><span data-l="en">Construction machine simulator</span></span>
+  <span class="plat mono" lang="en">iPhone · iPad · Mac · Windows</span>
+  <span class="drm"><span class="rozet yakinda"><span data-l="tr">Test sürümü</span><span data-l="en">In beta</span></span></span>
+  <img class="kucuk-resim" src="img/usta/kapak_temiz.jpg" alt="" loading="lazy">
+</a><a class="is" href="hakim-bey/index.html" data-renk="#8f7cff" data-imlec="Gör" data-imlec-tr="Gör" data-imlec-en="View" style="--vurgu-is:#8f7cff">
+  <span class="yil mono">2026</span>
+  <h3>Hâkim Bey</h3>
+  <span class="tur"><span data-l="tr">Mahkeme simülasyonu</span><span data-l="en">Courtroom simulation</span></span>
+  <span class="plat mono" lang="en">Android · iPhone · Windows</span>
+  <span class="drm"><span class="rozet yayinda"><span data-l="tr">Yayında</span><span data-l="en">Out now</span></span></span>
+  <img class="kucuk-resim" src="img/hakim/kapak.jpg" alt="" loading="lazy">
+</a><a class="is" href="acili-mi-olsun/index.html" data-renk="#ff4d3d" data-imlec="Gör" data-imlec-tr="Gör" data-imlec-en="View" style="--vurgu-is:#ff4d3d">
+  <span class="yil mono">2026</span>
+  <h3>Acılı mı Olsun?</h3>
+  <span class="tur"><span data-l="tr">Çiğköfteci oyunu</span><span data-l="en">Çiğ köfte shop game</span></span>
+  <span class="plat mono" lang="en">iPhone · iPad</span>
+  <span class="drm"><span class="rozet yakinda"><span data-l="tr">Yakında</span><span data-l="en">Coming soon</span></span></span>
+  <img class="kucuk-resim" src="img/acili/e2.jpg" alt="" loading="lazy">
+</a><a class="is" href="harput-kisi/index.html" data-renk="#7cc8f2" data-imlec="Gör" data-imlec-tr="Gör" data-imlec-en="View" style="--vurgu-is:#7cc8f2">
+  <span class="yil mono">2027</span>
+  <h3>Harput Kışı</h3>
+  <span class="tur"><span data-l="tr">Hikâyeli hayatta kalma</span><span data-l="en">Story-driven survival</span></span>
+  <span class="plat mono" lang="en">PC · Steam</span>
+  <span class="drm"><span class="rozet gelistiriliyor"><span data-l="tr">Geliştiriliyor</span><span data-l="en">In development</span></span></span>
+  <img class="kucuk-resim" src="img/harput/e1.jpg" alt="" loading="lazy">
+</a></div>
+  </div>
+  <div class="suzen" aria-hidden="true"><div class="sk" style="--k:#f5b32e;--k2:#ff6a1a">
+  <div class="sk-resim"><img src="img/usta/kapak_temiz.jpg" alt=""><span class="sk-no mono">01 / 04</span><img class="sk-ikon" src="img/usta/ikon.png" alt=""></div>
+  <div class="sk-alt"><span class="mono"><span data-l="tr">İş makinesi simülatörü</span><span data-l="en">Construction machine simulator</span></span><b>USTA</b>
+    <div class="sk-satir"><span class="mono" lang="en">iPhone · iPad · Mac · Windows</span><span class="sk-durum"><span data-l="tr">Test sürümü</span><span data-l="en">In beta</span></span></div>
+    <p><span data-l="tr">Toprak gerçekten yer değiştirir.</span><span data-l="en">The ground really moves.</span></p></div>
+</div><div class="sk" style="--k:#8f7cff;--k2:#d9b46a">
+  <div class="sk-resim"><img src="img/hakim/kapak.jpg" alt=""><span class="sk-no mono">02 / 04</span><img class="sk-ikon" src="img/hakim/ikon.png" alt=""></div>
+  <div class="sk-alt"><span class="mono"><span data-l="tr">Mahkeme simülasyonu</span><span data-l="en">Courtroom simulation</span></span><b>Hâkim Bey</b>
+    <div class="sk-satir"><span class="mono" lang="en">Android · iPhone · Windows</span><span class="sk-durum"><span data-l="tr">Yayında</span><span data-l="en">Out now</span></span></div>
+    <p><span data-l="tr">Beş binden fazla dava. Her biri ayrı bir vicdan sınavı.</span><span data-l="en">Over five thousand cases, each a test of conscience.</span></p></div>
+</div><div class="sk" style="--k:#ff4d3d;--k2:#ffb02e">
+  <div class="sk-resim"><img src="img/acili/e2.jpg" alt=""><span class="sk-no mono">03 / 04</span><img class="sk-ikon" src="img/acili/ikon.png" alt=""></div>
+  <div class="sk-alt"><span class="mono"><span data-l="tr">Çiğköfteci oyunu</span><span data-l="en">Çiğ köfte shop game</span></span><b>Acılı mı Olsun?</b>
+    <div class="sk-satir"><span class="mono" lang="en">iPhone · iPad</span><span class="sk-durum"><span data-l="tr">Yakında</span><span data-l="en">Coming soon</span></span></div>
+    <p><span data-l="tr">“Acılı mı olsun abi?”</span><span data-l="en">“Spicy or mild?”</span></p></div>
+</div><div class="sk" style="--k:#7cc8f2;--k2:#e9f4ff">
+  <div class="sk-resim"><img src="img/harput/e1.jpg" alt=""><span class="sk-no mono">04 / 04</span></div>
+  <div class="sk-alt"><span class="mono"><span data-l="tr">Hikâyeli hayatta kalma</span><span data-l="en">Story-driven survival</span></span><b>Harput Kışı</b>
+    <div class="sk-satir"><span class="mono" lang="en">PC · Steam</span><span class="sk-durum"><span data-l="tr">Geliştiriliyor</span><span data-l="en">In development</span></span></div>
+    <p><span data-l="tr">Zemheri geldi. Ateş sönmesin.</span><span data-l="en">Deep winter is here. Keep the fire alive.</span></p></div>
+</div></div>
+</section>
+
+<div class="kod-blok-sar sar"><div class="genislik"><div class="kod-blok sag" style="--k:#8f7cff" data-satirlar='[&quot;for oyun in oyunlar:&quot;, &quot;    oyun.renk = RENKLER[oyun.ad]&quot;, &quot;    oyun.ac()  # tıkla, sayfası açılsın&quot;, &quot;    await oyun.oynandi&quot;, &quot;    puan += oyun.keyif&quot;]' aria-hidden="true">
+  <div class="kb-ust"><i></i><i></i><i></i><span>oyunlar.gd</span></div>
+  <div class="kb-govde"><div class="kb-no"></div><pre></pre></div>
+</div></div></div>
+<section class="bolum sar" style="padding-top:0">
+  <div class="genislik">
+    <p class="manifesto"><span data-l="tr">Reklam yağmuru yok, karanlık tasarım yok. Oynayana saygı duyan, <em>emekle</em> yapılmış, bizden oyunlar.</span><span data-l="en">No ad spam, no dark patterns. Games made with <em>care</em>, that respect the people who play them.</span></p>
+  </div>
+</section>
+
+<section class="vitrin bolum" style="padding-top:0">
+  <div class="genislik sar"><div class="bolum-bas"><span class="mono"><span data-l="tr">Dünyalar</span><span data-l="en">Worlds</span></span><h2><span data-l="tr">Kaydır, <em class='renkli'>gez</em>.</span><span data-l="en">Scroll and <em class='renkli'>explore</em>.</span></h2></div></div>
+  <div class="vitrin-yol sar"><a class="panel" href="usta/index.html" style="--p1:#f5b32e;--p2:#ff6a1a" data-renk="#f5b32e" data-renk2="#ff6a1a" data-imlec="Gir" data-imlec-tr="Gir" data-imlec-en="Enter">
+  <span class="no">01 / 04 · <span data-l="tr">İş makinesi simülatörü</span><span data-l="en">Construction machine simulator</span></span>
+  <div><h3>USTA</h3><p><span data-l="tr">Kendi hafriyat şirketini kur: kaz, taşı, ihaleye gir, filonu büyüt.</span><span data-l="en">Build your own excavation company: dig, haul, win tenders, grow your fleet.</span></p><span class="ok-yuvarlak">→</span></div>
+  <div class="gorsel"><img src="img/usta/kapak_temiz.jpg" alt="" loading="lazy"></div>
+</a><a class="panel dik" href="hakim-bey/index.html" style="--p1:#8f7cff;--p2:#d9b46a" data-renk="#8f7cff" data-renk2="#d9b46a" data-imlec="Gir" data-imlec-tr="Gir" data-imlec-en="Enter">
+  <span class="no">02 / 04 · <span data-l="tr">Mahkeme simülasyonu</span><span data-l="en">Courtroom simulation</span></span>
+  <div><h3>Hâkim Bey</h3><p><span data-l="tr">Kürsüye otur: delilleri incele, tanıkları dinle, kararını ver.</span><span data-l="en">Take the bench: examine evidence, hear witnesses, deliver your verdict.</span></p><span class="ok-yuvarlak">→</span></div>
+  <div class="gorsel"><img src="img/hakim/e2.jpg" alt="" loading="lazy"></div>
+</a><a class="panel" href="acili-mi-olsun/index.html" style="--p1:#ff4d3d;--p2:#ffb02e" data-renk="#ff4d3d" data-renk2="#ffb02e" data-imlec="Gir" data-imlec-tr="Gir" data-imlec-en="Enter">
+  <span class="no">03 / 04 · <span data-l="tr">Çiğköfteci oyunu</span><span data-l="en">Çiğ köfte shop game</span></span>
+  <div><h3>Acılı mı Olsun?</h3><p><span data-l="tr">Dürüm sar, porsiyon hazırla, hırsızı yakala, dükkânını büyüt.</span><span data-l="en">Wrap, serve, catch the thief and grow your shop.</span></p><span class="ok-yuvarlak">→</span></div>
+  <div class="gorsel"><img src="img/acili/e2.jpg" alt="" loading="lazy"></div>
+</a><a class="panel" href="harput-kisi/index.html" style="--p1:#7cc8f2;--p2:#e9f4ff" data-renk="#7cc8f2" data-renk2="#e9f4ff" data-imlec="Gir" data-imlec-tr="Gir" data-imlec-en="Enter">
+  <span class="no">04 / 04 · <span data-l="tr">Hikâyeli hayatta kalma</span><span data-l="en">Story-driven survival</span></span>
+  <div><h3>Harput Kışı</h3><p><span data-l="tr">Elazığ, 1942 zemheri. Tandırın ateşini söndürme.</span><span data-l="en">Elazığ, the winter of 1942. Keep the tandoor burning.</span></p><span class="ok-yuvarlak">→</span></div>
+  <div class="gorsel"><img src="img/harput/e1.jpg" alt="" loading="lazy"></div>
+</a></div>
+</section>
+
+<section class="bolum sar" id="gunluk" style="padding-top:0">
+  <div class="genislik">
+    <div class="bolum-bas"><span class="mono"><span data-l="tr">Geliştirici günlüğü</span><span data-l="en">Devlog</span></span><h2><span data-l="tr">Atölyeden <em>son</em> haberler.</span><span data-l="en">Latest from the <em>workshop</em>.</span></h2></div>
+    <div class="gunluk">
+      <div class="sol"><p><span data-l="tr">Oyunlara ne eklendi, ne düzeldi, ne yayına çıktı. Her büyük güncelleme buraya yazılır.</span><span data-l="en">What was added, fixed or shipped. Every big update lands here.</span></p>
+        <p class="mono" style="color:var(--soluk)"><span data-l="tr">Takip et</span><span data-l="en">Follow</span>: <a href="https://instagram.com/codingbytalha" target="_blank" rel="noopener" style="color:var(--kagit)" lang="en">@codingbytalha</a></p></div>
+      <div class="terminal" role="log">
+        <div class="baslik-c"><i></i><i></i><i></i><span>~/codingbytalha — git log</span></div>
+        <ol><li><time datetime="2026-11-23">2026-11-23</time><span class="oyun" style="--renk:#f5b32e">usta</span><span class="msg"><span data-l="tr">E-postayla giriş, bulut kayıt, sıralama ekranı ve rütbeyle açılan makineler eklendi.</span><span data-l="en">Added e-mail sign-in, cloud saves, a leaderboard and rank-locked machines.</span></span></li><li><time datetime="2026-11-23">2026-11-23</time><span class="oyun" style="--renk:#f5b32e">usta</span><span class="msg"><span data-l="tr">Sürüm 1.0. 15 dile çeviri tamamlandı; hesap silme eklendi.</span><span data-l="en">Version 1.0. Translations finished for 15 languages; account deletion added.</span></span></li><li><time datetime="2026-11-22">2026-11-22</time><span class="oyun" style="--renk:#f5b32e">usta</span><span class="msg"><span data-l="tr">Taş ocağı yolları, zincirle çekme, su dolan çukurlar ve yağmurda kirlenen makineler.</span><span data-l="en">Quarry roads, towing, pits that fill with water and machines that get muddy in the rain.</span></span></li><li><time datetime="2026-11-19">2026-11-19</time><span class="oyun" style="--renk:#f5b32e">usta</span><span class="msg"><span data-l="tr">İnternetten birlikte çalışma: kendi oyun sunucumuz açıldı.</span><span data-l="en">Online co-op: our own game server went live.</span></span></li><li><time datetime="2026-11-08">2026-11-08</time><span class="oyun" style="--renk:#7cc8f2">harput-kisi</span><span class="msg"><span data-l="tr">Prototip 0.9: hikâye baştan sona oynanabilir, Çayda Çıra halayıyla bitiyor.</span><span data-l="en">Prototype 0.9: the story is playable end to end and closes with the Çayda Çıra dance.</span></span></li><li><time datetime="2026-10-24">2026-10-24</time><span class="oyun" style="--renk:#ff4d3d">acili-mi-olsun</span><span class="msg"><span data-l="tr">App Store sürümü hazır: dükkân süsleri ve başlangıç paketi.</span><span data-l="en">App Store build ready: shop décor and a starter pack.</span></span></li><li><time datetime="2026-08-23">2026-08-23</time><span class="oyun" style="--renk:#8f7cff">hakim-bey</span><span class="msg"><span data-l="tr">Google Play'de 177 ülkede yayına çıktı.</span><span data-l="en">Released on Google Play in 177 countries.</span></span></li><li><time>&nbsp;</time><span class="oyun">$</span><span class="msg"><span class="imlec-y"></span></span></li></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="kod-blok-sar sar"><div class="genislik"><div class="kod-blok sol" style="--k:#ff4d3d" data-satirlar='[&quot;class_name Gelistirici&quot;, &quot;var beceriler := [\&quot;tasarım\&quot;, \&quot;kod\&quot;, \&quot;görsel\&quot;, \&quot;ses\&quot;, \&quot;yayın\&quot;]&quot;, &quot;&quot;, &quot;func gun() -&gt; void:&quot;, &quot;    while cay &gt; 0:&quot;, &quot;        kod_yaz()&quot;, &quot;        cay -= 1  # bir bardak daha&quot;, &quot;    oyun_yayinla()&quot;]' aria-hidden="true">
+  <div class="kb-ust"><i></i><i></i><i></i><span>talha.gd</span></div>
+  <div class="kb-govde"><div class="kb-no"></div><pre></pre></div>
+</div></div></div>
+<section class="bolum sar" id="hakkimda" style="padding-top:0">
+  <div class="genislik">
+    <div class="bolum-bas"><span class="mono"><span data-l="tr">Ne yapıyorum</span><span data-l="en">What I do</span></span><h2><span data-l="tr">Baştan sona, <em>tek</em> elden.</span><span data-l="en">End to end, by <em>one</em> pair of hands.</span></h2></div>
+    <div class="disiplin"><div><span class="mono" style="color:var(--soluk)">01</span><h3><span data-l="tr">Oyun tasarımı</span><span data-l="en">Game design</span></h3><p>Fikirden oynanışa: kurallar, ekonomi, ilerleme.</p></div><div><span class="mono" style="color:var(--soluk)">02</span><h3><span data-l="tr">Programlama</span><span data-l="en">Engineering</span></h3><p>Fizik, ağ, kayıt, mağaza; hepsi elle yazılır.</p></div><div><span class="mono" style="color:var(--soluk)">03</span><h3><span data-l="tr">Görsel ve 3B</span><span data-l="en">Art & 3D</span></h3><p>Modeller, arayüz, ışık, tanıtım filmleri.</p></div><div><span class="mono" style="color:var(--soluk)">04</span><h3><span data-l="tr">Yayıncılık</span><span data-l="en">Publishing</span></h3><p>App Store, Google Play, Steam; çeviri ve destek.</p></div></div>
+    <div class="araclar" aria-label="Araçlar"><span>Godot 4</span><span>GDScript</span><span>Swift</span><span>React Native</span><span>Expo</span><span>Electron</span><span>Firebase</span><span>Nakama</span><span>Blender</span><span>Xcode</span><span>Android Studio</span><span>Steam</span></div>
+  </div>
+</section>
+
+<section class="bolum sar" style="padding-top:0">
+  <div class="genislik"><div class="sayilar"><div><b data-say="4">4</b><span><span data-l="tr">oyun</span><span data-l="en">games</span></span></div><div><b data-say="177">177</b><span><span data-l="tr">ülkede yayında</span><span data-l="en">countries live</span></span></div><div><b data-say="16">16</b><span><span data-l="tr">dil</span><span data-l="en">languages</span></span></div><div><b data-say="1">1</b><span><span data-l="tr">kişilik stüdyo</span><span data-l="en">person studio</span></span></div></div></div>
+</section>
+
+<div class="kod-blok-sar sar"><div class="genislik"><div class="kod-blok sag" style="--k:#7cc8f2" data-satirlar='[&quot;if (fikrinVar) {&quot;, &quot;  mesajAt(\&quot;@codingbytalha\&quot;);&quot;, &quot;  // hepsini okuyorum, söz&quot;, &quot;}&quot;]' aria-hidden="true">
+  <div class="kb-ust"><i></i><i></i><i></i><span>iletisim.js</span></div>
+  <div class="kb-govde"><div class="kb-no"></div><pre></pre></div>
+</div></div></div>
+<section class="iletisim sar" id="iletisim">
+  <div class="genislik">
+    <span class="mono" style="color:var(--soluk)"><span data-l="tr">İletişim</span><span data-l="en">Contact</span></span>
+    <h2><span data-l="tr">Bir <em class='renkli'>fikrin</em><br>mi var?</span><span data-l="en">Got an <em class='renkli'>idea</em><br>to share?</span></h2>
+    <div class="alt-sira">
+      <p><span data-l="tr">Oyunlarla ilgili soru, iş birliği ya da basın için Instagram'dan yaz; hepsini okuyorum.</span><span data-l="en">For questions, collaborations or press, message me on Instagram. I read everything.</span></p>
+      <a class="miknatis" href="https://instagram.com/codingbytalha" target="_blank" rel="noopener"><span><span data-l="tr">Yaz bana</span><span data-l="en">Say hello</span><small lang="en">@codingbytalha</small></span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="alt sar">
+  <div class="genislik">
+    <div class="alt-ic">
+      <div>
+        <h4 class="mono"><span data-l="tr">Bağımsız oyun stüdyosu</span><span data-l="en">Independent game studio</span></h4>
+        <p style="color:#cfc8bb;max-width:36ch;margin:0"><span data-l="tr">Oyunlarımı fikirden mağazaya kadar tek başıma yapıyorum.</span><span data-l="en">I make my games alone, from the first idea to the store.</span></p>
+      </div>
+      <div><h4 class="mono"><span data-l="tr">Oyunlar</span><span data-l="en">Games</span></h4><ul><li><a href="usta/index.html">USTA</a></li><li><a href="hakim-bey/index.html">Hâkim Bey</a></li><li><a href="acili-mi-olsun/index.html">Acılı mı Olsun?</a></li><li><a href="harput-kisi/index.html">Harput Kışı</a></li></ul></div>
+      <div><h4 class="mono"><span data-l="tr">Gizlilik</span><span data-l="en">Privacy</span></h4><ul><li><a href="usta/gizlilik.html">USTA</a></li><li><a href="hakim-bey/gizlilik.html">Hâkim Bey</a></li><li><a href="acili-mi-olsun/gizlilik.html">Acılı mı Olsun?</a></li><li><a href="harput-kisi/gizlilik.html">Harput Kışı</a></li><li><a href="issiz-yaylalar/gizlilik.html">Harput'taki Issız Yaylalar</a></li></ul></div>
+      <div><h4 class="mono"><span data-l="tr">Yardım</span><span data-l="en">Help</span></h4><ul>
+        <li><a href="destek.html"><span data-l="tr">Destek</span><span data-l="en">Support</span></a></li>
+        <li><a href="hesap-sil.html"><span data-l="tr">Hesap silme</span><span data-l="en">Delete account</span></a></li>
+        <li><a href="sartlar.html"><span data-l="tr">Kullanım şartları</span><span data-l="en">Terms</span></a></li>
+        <li><a href="https://instagram.com/codingbytalha" target="_blank" rel="noopener">Instagram</a></li>
+      </ul></div>
+    </div>
+    <div class="dev-alt" aria-hidden="true" lang="en">codingbytalha</div>
+    <div class="telif mono"><span>© <span class="yil">2026</span> Talha Yalçın</span><span><span data-l="tr">Türkiye'de yapıldı</span><span data-l="en">Made in Türkiye</span></span></div>
+  </div>
+</footer>
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="js/kodlar.js"></script>
+<script src="js/kod.js"></script>
+<script src="js/giris.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
